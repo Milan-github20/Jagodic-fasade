@@ -1,0 +1,57 @@
+.MainHome {
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Noto Serif", serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  gap: 5.1rem;
+  margin: 0px 30px 0px 0px;
+  list-style-type: none;
+}
+
+nav {
+  height: 120px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  opacity: 85%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: red;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+.active {
+  color: black !important;
+}
+
+.Routehome {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+nav div input {
+  height: 100px;
+  margin-left: 60px;
+  margin-top: 9px;
+  cursor: default;
+}
+
+nav div {
+  height: 45px;
+}

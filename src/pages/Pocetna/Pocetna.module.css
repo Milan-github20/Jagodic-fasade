@@ -1,0 +1,102 @@
+.pocetna {
+  background: linear-gradient(rgba(88, 63, 63, 0.459), #775252c9),
+    url(../../photo/kucica.jpg);
+  height: 56.7rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pocetna h1 {
+  margin: 0px;
+  color: white;
+  font-size: 70px;
+  font-family: "Noto Serif", serif;
+  margin: 20px;
+  font-style: italic;
+}
+
+.pocetna h2 {
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+  font-family: "Noto Serif", serif;
+  margin: 20px;
+  font-style: italic;
+}
+
+/* kvalitet */
+
+.kvalitet h2 {
+  text-align: center;
+  background-color: #e3e2e2;
+  display: flex;
+  margin: 0px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  opacity: 85%;
+}
+
+/* aHref */
+
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 3px;
+}
+
+.aHref {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #4a4646;
+  background-color: #e60f14;
+  width: 180px;
+  color: white;
+  height: 50px;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.aHref:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+/* iskustvo */
+
+.iskustvo {
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iskustvo h1 {
+  text-align: center;
+  text-transform: uppercase;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid red;
+  font-size: 40px;
+}
+
+.iskustvo p {
+  text-align: center;
+  margin: 5rem;
+  font-size: 22px;
+}
