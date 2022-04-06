@@ -100,3 +100,27 @@
   margin: 5rem;
   font-size: 22px;
 }
+
+/* kartice */
+
+.kartice {
+  display: flex;
+  justify-content: space-around ;
+}
+
+.kartica1 {
+  background-color: red;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 100px;
+}
+
+.kartica2 {
+  background-color: blue;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 100px;
+}
+

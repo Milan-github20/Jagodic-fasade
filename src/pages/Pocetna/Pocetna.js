@@ -33,10 +33,23 @@ const Pocetna = () => {
       <div className={styles.kartice}>
         <div className={styles.kartica1}>
           <img></img>
-          <h2>asd</h2>
-          <p>asd</p>
+          <h2>Ponuda</h2>
+          <p>
+            U velikom izboru fasadnih sistema na našem tržištu, koji mogu veoma
+            da se razlikuju kvalitetom i postojanosti, nije lako donijeti pravu
+            odluku.
+          </p>
         </div>
-        <div className={styles.kartica2}></div>
+
+        <div className={styles.kartica2}>
+          <img></img>
+          <h2>Kontakt</h2>
+          <p>
+            U velikom izboru fasadnih sistema na našem tržištu, koji mogu veoma
+            da se razlikuju kvalitetom i postojanosti, nije lako donijeti pravu
+            odluku.
+          </p>
+        </div>
       </div>
     </div>
   );
